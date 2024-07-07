@@ -1,0 +1,105 @@
+/* Navbar.css */
+
+/* General navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 4px; /* Reduced padding for a smaller overall height */
+    box-shadow: 0 1px 3px -2px #626262;
+}
+
+/* Logo and text styling */
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Reduced gap */
+}
+
+.nav-logo p {
+    color: #171717;
+    font-size: 18px; /* Reduced font size for smaller text */
+    font-weight: 600; /* Removed 'px' from font-weight, as it's incorrect */
+}
+
+/* Menu styling */
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px; /* Reduced gap */
+    color: #626262;
+    font-size: 18px; /* Slightly reduced font size */
+    font-weight: 400;
+}
+
+/* Individual menu item styling */
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px; /* Reduced gap */
+    cursor: pointer;
+}
+
+.nav-menu hr {
+    border: none;
+    width: 80%;
+    height: 2px; /* Reduced height */
+    border-radius: 10px;
+    background: #FF4141;
+}
+
+/* Cart and button styling */
+.nav-logo-cart {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Reduced gap */
+}
+
+.nav-logo-cart button {
+    width: 120px; /* Reduced width */
+    height: 40px; /* Reduced height */
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 20px; /* Reduced border-radius for smaller button */
+    color: #515151;
+    font-size: 16px; /* Reduced font size */
+    font-weight: 500;
+    background: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+/* Button active state */
+.nav-logo-cart button:active {
+    background: #f3f3f3;
+}
+
+/* Cart count styling */
+.nav-cart-count {
+    width: 18px; /* Reduced width */
+    height: 18px; /* Reduced height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px; /* Adjusted for reduced size */
+    margin-left: -40px; /* Adjusted for reduced size */
+    border-radius: 9px; /* Adjusted for reduced size */
+    font-size: 12px; /* Reduced font size */
+    background: red;
+    color: white;
+}
+
+/* Responsive adjustments for small screens */
+@media (max-width: 768px) {
+    .nav-menu {
+        flex-direction: column;
+        gap: 15px; /* Reduced gap */
+    }
+
+    .nav-logo-cart {
+        flex-direction: column;
+        gap: 15px; /* Reduced gap */
+    }
+}
