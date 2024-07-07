@@ -1,0 +1,38 @@
+/* Popular.css */
+
+.popular {
+    padding: 20px;
+}
+
+.popular h1 {
+    color: #090909;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.popular hr {
+    border: none;
+    height: 2px;
+    background-color: #FF4141;
+    margin-bottom: 20px;
+}
+
+.popular-item {
+    display: flex;
+    flex-wrap: wrap; /* Ensure items wrap to the next line */
+    gap: 20px; /* Adjust as needed for spacing between items */
+}
+
+.popular-item .item {
+    width: calc(25% - 15px); /* Calculate width for four items in a row */
+    margin-bottom: 20px; /* Optional: Add bottom margin for spacing */
+}
+
+.popular-item img {
+    width: 90%; /* Ensure images take up full width of their container */
+    max-width: 90%; /* Ensure images don't exceed their original size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Add border radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for styling */
+}
