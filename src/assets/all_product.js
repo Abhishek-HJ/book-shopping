@@ -39,7 +39,7 @@ let all_product = [
   {
     id: 1,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    category: "Personality Development",
     image: p1_img,
     new_price: 50.0,
     old_price: 80.5,
@@ -47,7 +47,7 @@ let all_product = [
   {
     id: 2,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    category: "Personality Development",
     image: p2_img,
     new_price: 85.0,
     old_price: 120.5,
@@ -55,7 +55,7 @@ let all_product = [
   {
     id: 3,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    category: "Education",
     image: p3_img,
     new_price: 60.0,
     old_price: 100.5,
@@ -63,7 +63,7 @@ let all_product = [
   {
     id: 4,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    category: "Education",
     image: p4_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -71,7 +71,7 @@ let all_product = [
   {
     id: 5,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    category: "Fiction",
     image: p5_img,
     new_price: 85.0,
     old_price: 120.5,
@@ -79,7 +79,7 @@ let all_product = [
   {
     id: 6,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    category: "Fiction",
     image: p6_img,
     new_price: 85.0,
     old_price: 120.5,
@@ -87,7 +87,7 @@ let all_product = [
   {
     id: 7,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    category: "Fiction",
     image: p7_img,
     new_price: 85.0,
     old_price: 120.5,

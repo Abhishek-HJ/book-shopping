@@ -1,0 +1,54 @@
+.shop-category {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .shop-category img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .shopcategory-indexsort {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .shopcategory-indexsort p {
+    margin: 0;
+    font-size: 16px;
+    align-items: center;
+  }
+  
+  .shopcategory-sort {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border :1px;
+  }
+  
+  .shopcategory-sort img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+  }
+  
+  .shopcategory-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 100px; /* Increased gap for more space between items */
+  }
+  
+  .shopcategory-products .item {
+    margin-bottom: 20px; /* Optional: Add bottom margin for spacing */
+  }
+  
+  .shopcategory-products .item img {
+    width: 90%; /* Ensure images take up full width of their container */
+    max-width: 90%; /* Ensure images don't exceed their original size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; 
+  }
